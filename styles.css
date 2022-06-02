@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #446235;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+.left-nav{
+    background-color: #446235;
+}
+.jsdf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #203912;
+    height: 20%;
+    width: 100%;
+    box-shadow: 0px 0px 10px 10px #203912;
+}
+.jsdf span{
+    color: #5E94E1; 
+    text-align: center;
+    font-size: 18px;
+}
+.nav{
+    width: 100%;
+    height: 60%;
+}
+.links{
+    width: 100%;
+    height: 10%;
+}
+.load-cv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-cv button{
+    background-color: #7A8E6E;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+.load-cv button:hover{
+    background-color: #203912;
+}
+.load-cv button a{
+    text-decoration: none;
+    color: white;
+}
+.ext-links{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-nav{
+    background-image: url("images/blured.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.img-pic{
+    width: 100%;
+    height: 60%;
+    display:flex;
+    flex-direction:column;
+
+}
+.pic-box{
+    width: 100%;
+    height: 500px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.text-sd{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    border-top: 30px solid #949391;
+}
+.myname{
+    color: #5E94E1; 
+    font-size: 80px; 
+    letter-spacing: 30px;
+}
+.smsdf{
+    color: #5E94E1; 
+    font-size: 30px; 
+    letter-spacing: 20px;
+}
+.button-pane{
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    
+}
+.button-pane a{
+    text-decoration: none;
+}
+.button-pane:hover{
+    background-color: #5E94E1;
+    cursor: pointer;
+}
