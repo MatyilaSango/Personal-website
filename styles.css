@@ -70,6 +70,7 @@ body{
     width: 350px;
     position: fixed;
     border-right: 5px solid #203912;
+    background-color: #9C7C85;
 }
 .right-nav{
     margin-left: 370px;
@@ -80,7 +81,7 @@ body{
     background-image: url("images/blured.png");
     background-repeat: no-repeat;
     object-fit: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 .img-pic{
     width: 100%;
