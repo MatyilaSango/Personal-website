@@ -110,7 +110,7 @@ body{
 }
 .myname{
     color: #5E94E1; 
-    font-size: 80px; 
+    font-size: 50px;
     letter-spacing: 30px;
 }
 .smsdf{
@@ -174,10 +174,18 @@ body{
         width: 100vw;
         margin-left: 0px;
     }
-    div.myname{
-        letter-spacing: 0px;
+    div.text-sd .myname{
+        letter-spacing: 3px;
+        font-size: 50px;
     }
-    div.front-img{
-        height: 100px;
+    div.text-sd .smsdf{
+        font-size: 20px;
+    }
+    div.front-view .img-pic .pic-box .front-img{
+        height: 250px;
+    }
+    div.front-view .img-pic{
+        padding-top: 100px;
+        height: 250px;
     }
 }
