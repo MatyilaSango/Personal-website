@@ -1,6 +1,6 @@
 const projects = [{
         "path": "project-pics/1.jpg",
-        "title": "Library system",
+        "title": "Library System",
         "description": "Description 1"
     },
     {
