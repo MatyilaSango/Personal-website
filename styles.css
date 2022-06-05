@@ -187,6 +187,10 @@ body{
     height: calc(100% - 10px);
     width: calc(100% - 80px);
     padding-top: 10px;
+    overflow-y: scroll;
+}
+.main-project::-webkit-scrollbar{
+    overflow-y: hidden;
 }
 .prev-pro{
     border-top-left-radius: 20px;

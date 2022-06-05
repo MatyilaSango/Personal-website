@@ -33,6 +33,6 @@ function nextCard(){
     }
     document.getElementById("main-project").innerHTML = "" +
         "<img class='proj-pic' src=" + projects[len].path + " alt='pic' height='100px' />" +
-        "<span style='font-size: 18px'><b>"+projects[len].title+"</b></span><br /><br />" +
+        "<span><b>"+projects[len].title+"</b></span><br /><br />" +
         projects[len].description;
 }
