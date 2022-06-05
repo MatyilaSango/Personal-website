@@ -15,7 +15,13 @@ const projects = [{
     }
 ];
 
-let len = projects.length - 1;
+let len = 0;
+
+document.getElementById("main-project").innerHTML = "" +
+"<img class='proj-pic' src=" + projects[len].path + " alt='pic' height='100px'/>" +
+"<span style='font-size: 22px'><b>"+projects[len].title+"</b></span><br /><br />" +
+projects[len].description;
+
 function preCard(){
     len--;
     if(len < 0) {
