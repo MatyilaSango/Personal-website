@@ -110,31 +110,7 @@
                         <div class="next-pro">
                             <button onclick="nextCard()"><img src="icons/icons8_forward_filled_50px.png" height="30px" alt="pic" /></button>
                         </div>
-                        <script>
-                            const projects = [{
-                                    "path": "icons/icons8_forward_filled_50px.png",
-                                    "info": "info 1"
-                                },
-                                {
-                                    "path": "project-pics/2.jpg",
-                                    "info": "info 2"
-                                },
-                                {
-                                    "path": "project-pics/3.png",
-                                    "info": "info 3"
-                                }
-                                ];
-
-                            let len = 2;
-                            function nextCard(){
-                                document.getElementById("main-project").innerHTML = "" +
-                                    "<img src={projects[0].path} alt='pic' height='100px' />";
-                            }
-                            function preCard(){
-                                document.getElementById("main-project").innerHTML = "" +
-                                    "<img src={projects[1].path} alt='pic' height='100px' />";
-                            }
-                        </script>
+                        <script src="ProjectsCards.js"></script>
 
                     </div>
 

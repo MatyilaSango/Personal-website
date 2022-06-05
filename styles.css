@@ -183,6 +183,11 @@ body{
     display: flex;
     align-items: center;
 }
+.main-project{
+    height: calc(100% - 10px);
+    width: calc(100% - 80px);
+    padding-top: 10px;
+}
 .prev-pro{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -198,8 +203,9 @@ body{
     background-color: transparent;
     border: 0px;
 }
-.proj-pic{
+.main-project .proj-pic{
     float: left;
+    padding-right: 10px;
 }
 
 @media screen and (max-width: 720px) {
