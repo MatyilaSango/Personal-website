@@ -1,7 +1,7 @@
 const projects = [{
         "path": "project-pics/1.jpg",
         "title": "Library System",
-        "description": "A library system or application that allows students to sign in or register. It enables students to browser books based on the faculty and department the like. It also has a search functionality for one to search for a book. It has an administration side for administrators to manager the system and update/add/delete the books."
+        "description": "A library system or application that allows students to sign in or register. It enables students to browser books based on the faculty and department they like. It also has a search functionality for one to search for a book. It has an administration side for administrators to manager the system and update/add/delete the books."
     },
     {
         "path": "project-pics/2.jpg",
