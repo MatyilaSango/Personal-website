@@ -1,17 +1,17 @@
 const projects = [{
         "path": "project-pics/1.jpg",
         "title": "Library System",
-        "description": "Description 1"
+        "description": "A library system or application that allows students to sign in or register. It enables students to browser books based on the faculty and department the like. It also has a search functionality for one to search for a book. It has an administration side for administrators to manager the system and update/add/delete the books."
     },
     {
         "path": "project-pics/2.jpg",
         "title": "HI Music Management System",
-        "description": "Description 2"
+        "description": "Its a management system for me to manage my music."
     },
     {
         "path": "project-pics/3.jpg",
         "title": "San7beats",
-        "description": "Description 3"
+        "description": "A website that presents all music and beats at one place. It reads all my music/beats posted from other sites like souncloud, audiomack, etc and presents them all in one place."
     }
 ];
 
